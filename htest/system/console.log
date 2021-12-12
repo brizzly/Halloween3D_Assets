@@ -1,0 +1,165 @@
+New Variable Added: visent 0 0.000000
+New Variable Added: drawface 1 1.000000
+New Variable Added: drawtris 0 0.000000
+New Variable Added: drawone 0 0.000000
+New Variable Added: drawportal 0 0.000000
+New Variable Added: invertmouse 0 0.000000
+New Variable Added: drawnormal 0 0.000000
+New Variable Added: drawbound 0 0.000000
+New Variable Added: pview 1 1.000000
+New Variable Added: drawcell 0 0.000000
+New Variable Added: STDFPS 40 40.000000
+New Variable Added: cvel 0.2 0.200000
+New Variable Added: pvel 1.0 1.000000
+New Variable Added: prvel 0.30 0.300000
+New Variable Added: plook 90.0 90.000000
+New Variable Added: noclip 0 0.000000
+New Variable Added: fov 90 90.000000
+New Variable Added: jumpstep 0.25 0.250000
+New Variable Added: groundacc 0.1 0.100000
+New Variable Added: groundslow 60.0 60.000000
+New Variable Added: gravity 8.0 8.000000
+New Variable Added: filemap h1m1.map 0.000000
+New Variable Added: drawgun 1 1.000000
+New Variable Added: maxspeed 0.16 0.160000
+New Variable Added: airacc 0.01 0.010000
+New Variable Added: airslow 0.0 0.000000
+New Variable Added: soundsys 1 1.000000
+New Variable Added: respawn 1 1.000000
+New Variable Added: god 0 0.000000
+New Variable Added: monster 1 1.000000
+New Variable Added: bombslow 0.5 0.500000
+New Variable Added: musicvol 50.0 50.000000
+New Variable Added: soundvol 50.0 50.000000
+New Variable Added: autoswitch 1 1.000000
+New Variable Added: fullscreen 1 1.000000
+New Variable Added: colordepth 16 16.000000
+New Variable Added: videomode 1 1.000000
+New Variable Added: bms 4 4.000000
+New Variable Added: bmd 5 5.000000
+New Variable Added: statutbar 1 1.000000
+New Variable Added: animspeed 1.0 1.000000
+New Variable Added: lightmap 1 1.000000
+New Variable Added: cullface 1 1.000000
+New Variable Added: renderent 1 1.000000
+New Variable Added: directstart 0 0.000000
+New Variable Added: eps 0.001 0.001000
+New Variable Added: developer 0 0.000000
+New Variable Added: offset 20 20.000000
+New Variable Added: leaf -1 -1.000000
+New Variable Added: record 0 0.000000
+New Variable Added: stoprecord 0 0.000000
+New Variable Added: play 0 0.000000
+New Variable Added: stopplay 0 0.000000
+New Variable Added: noscript 0 0.000000
+New Variable Added: gk_up 200 200.000000
+New Variable Added: gk_down 208 208.000000
+New Variable Added: gk_left 203 203.000000
+New Variable Added: gk_right 205 205.000000
+New Variable Added: gk_jump 257 257.000000
+New Variable Added: gk_attack 256 256.000000
+New Variable Added: gk_axe 2 2.000000
+New Variable Added: gk_arbalet 3 3.000000
+New Variable Added: gk_bombgun 4 4.000000
+New Variable Added: gk_tromblon 5 5.000000
+New Variable Added: gk_crouch 157 157.000000
+Init Console DONE.
+RegisterClass
+1152 864
+Window creation succeed
+Create A GL Device Context
+Find A Suitable PixelFormat
+Set The PixelFormat
+Create A GL Rendering Context
+Activate The GL Rendering Context
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce2 MX/AGP/3DNOW!
+GL_VERSION: 1.3.0
+GL_EXTENSIONS: GL_ARB_imaging GL_ARB_multitexture GL_ARB_texture_compression GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_dot3 GL_ARB_transpose_matrix GL_S3_s3tc GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_packed_pixels GL_EXT_paletted_texture GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shared_texture_palette GL_EXT_stencil_wrap GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_cube_map GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_vertex_weighting GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_evaluators GL_NV_fence GL_NV_fog_distance GL_NV_light_max_exponent GL_NV_packed_depth_stencil GL_NV_register_combiners GL_NV_texgen_emboss GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_NV_texture_rectangle GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_program GL_SGIS_generate_mipmap GL_SGIS_multitexture GL_SGIS_texture_lod GL_WIN_swap_hint WGL_EXT_swap_control 
+DirectSoundCreate
+SetCooperativeLevel
+Create PrimarySoundBuffer ok
+ds_Init ok
+ds_LoadWAVE system/sound/gun_pickup.wav
+ds_LoadWAVE system/sound/amo_pickup.wav
+ds_LoadWAVE system/sound/fleches.wav
+ds_LoadWAVE system/sound/rollover.wav
+ds_LoadWAVE system/sound/click.wav
+ds_LoadWAVE system/sound/noammo.wav
+ds_LoadWAVE system/sound/change.wav
+ds_LoadWAVE system/sound/lift.wav
+ds_LoadWAVE system/sound/land1.wav
+ds_LoadWAVE system/sound/jump1.wav
+ds_LoadWAVE system/sound/fry.wav
+ds_LoadWAVE system/sound/pain.wav
+ds_LoadWAVE system/sound/bombbounce.wav
+ds_LoadWAVE system/sound/shot3.wav
+ds_LoadWAVE system/sound/explode.wav
+ds_LoadWAVE system/sound/toucheclavier.wav
+ds_LoadWAVE system/sound/welcome.wav
+ds_LoadWAVE system/sound/youdienow1.wav
+ds_LoadWAVE system/sound/grogne.wav
+ds_LoadWAVE system/sound/death.wav
+ds_LoadWAVE system/sound/pickjade.wav
+ds_LoadWAVE system/sound/gameover.wav
+ds_LoadWAVE system/sound/PAS.wav
+ds_LoadWAVE system/sound/coup_dans_le_vent_1.wav
+ds_LoadWAVE system/sound/coup_dans_le_vent_2.wav
+ds_LoadWAVE system/sound/coup_dans_le_vent_3.wav
+ds_LoadWAVE system/sound/gourdin_aouch_1.wav
+ds_LoadWAVE system/sound/gourdin_aouch_2.wav
+ds_LoadWAVE system/sound/tromblon.wav
+ds_LoadWAVE system/sound/tromblon_shot.wav
+ds_LoadWAVE system/sound/ambiance_2.wav
+ds_LoadWAVE system/sound/clamp.wav
+ds_LoadWAVE system/sound/burp.wav
+ds_LoadWAVE system/sound/weird.wav
+ds_LoadWAVE system/sound/fire1.wav
+ds_LoadWAVE system/sound/gate.wav
+ds_LoadWAVE system/sound/rire_diabolique1.wav
+ds_LoadWAVE system/sound/rire_diabolique2.wav
+ds_LoadWAVE system/sound/rire_diabolique3.wav
+ds_LoadWAVE system/sound/rire_diabolique4.wav
+ds_LoadWAVE system/sound/rire_diabolique5.wav
+ds_LoadWAVE system/sound/prepare.wav
+ds_LoadWAVE system/sound/usuck.wav
+g_ResetTextureStruct
+g_ResetTextureStruct done.
+Loading: system/entity/perso.ent
+Loading: system/entity/gun1.ent
+Loading: system/entity/gun2.ent
+Loading: system/entity/gun3.ent
+Loading: system/entity/monstre.ent
+Loading: system/entity/fleche.ent
+Loading: system/entity/amo1.ent
+Loading: system/entity/amo2.ent
+Loading: system/entity/amo3.ent
+Loading: system/entity/spike.ent
+Loading: system/entity/masse.ent
+Loading: system/entity/bombe.ent
+Loading: system/entity/explosion.ent
+Loading: system/entity/jade.ent
+Loading: system/entity/lift.ent
+Loading: system/entity/pang.ent
+Loading: system/entity/fiole.ent
+Loading: system/entity/lampe.ent
+Loading: system/entity/monstre.ent
+Loading: system/entity/pumpkin.ent
+Load ModelData: system/model/depla/depla.ms3d
+body_Red.tga
+Load ModelData: system/model/depla/depla.ms3d
+Load ModelData: system/model/depla/depla_run.ms3d
+Load ModelData: system/model/depla/depla_attack.ms3d
+Load ModelData: system/model/depla/depla_die.ms3d
+Load ModelData: system/model/morbak/morbak.ms3d
+grate1_4.tga
+Load ModelData: system/model/morbak/morbak.ms3d
+Load ModelData: system/model/morbak/morbak_run.ms3d
+Load ModelData: system/model/morbak/morbak_attack.ms3d
+Load ModelData: system/model/morbak/morbak_die.ms3d
+ds_LoadStreamWAVE system/music/Pres.wav
+g_UnloadTextureStruct
+g_UnloadTextureStruct done.
+o_UnloadEntStruct
+o_UnloadEntStruct done.
+ds_Cleanup

@@ -1,0 +1,33 @@
+actionbrush 1
+{
+	scale (100,102,90) [0 1]
+	ActivationDist 60
+
+
+
+	ifAction ( WAITACTION )
+	{
+		move (0,-120,0) [2000 7000]
+		move (0,120,0) [13000 18000]
+	}
+}
+
+actionbrush 2
+{
+	ActivationDist 40
+	scale (100,100,120) [0 1]
+	move (0,0,5) [0 500]
+
+	ifAction ( PERSO )
+	{
+		DispText "ENTREE ca te dit quelquechose??"
+	}	
+
+	ifAction ( ACTIONKEY )
+	{ 
+		DispText "Retournes toi et tema le cube sale gay"
+		Launchactionbrush 1
+		move (0,0,5) [0 500]
+
+	}	
+}

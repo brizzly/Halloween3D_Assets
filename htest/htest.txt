@@ -1,0 +1,105 @@
+========================
+ Halloween version TEST
+========================
+
+
+Htest26
+=======
+- Amélioration technique de h1m0.map
+- Effets de caméra sur les explosions
+- Réhaussement de la vue du joueur.
+- Remise en place des entites (armes, munitions,monstres,..)
+- Dammage de la lave reactive.
+- Bug corrigé de la gravite des bombes qui tarversaient le sol
+- Bug corrigé sur les fleches qui transperçait les murs quand on tirait collé a un mur.
+- Bug corrigé sur l'affichage des armes tenues par le joueur.
+- Ajout dans les outils de brush invisibles pour bloquer correctement les mouvements sur une zone infranchissable.
+- Pas de collisions d'entitee sur les brush invisibles sauf monstre et perso.
+- Les entitee en dehors du frustrum ne sont pas affichées.
+- Correction d'un bug enorme de bass.dll (v1.0 -> 1.2) qui faisait planter le jeu sur certain PC.
+- Commande << exit >> avec ou sans arguments valide pour quitter depuis la console.
+- Quitte propement avec ou sans message d'erreur (cf commande quit/exit dans la console).
+- Jeu limité a 200FPS pour cause d'instabilite/injouabilite du systeme au dela de cette limite.
+
+Htest25
+=======
+- Frustrum Culling des leafy BSP via un PVS pour plus de FPS.
+- Gestion des collisions via les ellipsoides.
+- Gestion des escaliers dans les maps.
+- Gestion des sauts.
+- Correction du bug du joueur qui reste collé au mur
+- Ajout et mise en place d'un random sur les multiples sons FX
+- Une gravite est geree pour chaque entite
+- Une ellipsoide de collision est geree pour chaque entite
+
+Htest24
+=======
+- Effet dans de scie sur les polygones éloignés corrigé
+- Nouveaux outils de compilation pour des fichiers map unique
+- Localisation spaciale dans les maps d'interieurs plus performante
+- Ajout d'un ciel pour les futurs maps en exterieur
+- Nouveaux sons systeme ®winXP pour le menu
+
+Htest23
+=======
+- Nouveaux outils pour compiler les maps.
+- La fonction de console: map mapfile(*.map) Debuggée
+- L'outil BSP-MAKER fabrique une géométrie solide:
+- 1) isole les blocs rectangulaires
+- 2) les ajoute un à un dans l'arbre BSP
+- 3) retire l'union
+- 4) reorganise les fragments de faces
+- Bug du groupement des faces corrigé
+- Coordonnee des floatants plus elegante (0->4096)
+- Gestion de la mémoire corrigé (178MB) remplacé le MAX_ARRAY statique par du dynamique.
+- Effets de caméra pour les explosions
+- Sons en dehors du PVS non audibles
+- Touche console ² = DIK_GRAVE 0x29
+- Texures systemes dans /system/textures/systex
+
+Htest15
+=======
+- Gestion des animations de personnages avec des bones via les exportations de MilkShape3D
+- Boutons BACK dans les menus
+- Mode ResumeGame permettant de configurer le jeu pendant une partie
+- Ajout d'effets sur les rebonds des bombes
+- Mise des munitions pour le tromblon
+- Introduction des FIOLES
+- Effet <<Weird>> provoqué par la fiole
+- Correction du ratio d'ecran en mode fenetre
+- Configuration de l'affichage des armes dans le jeu depuis les menus
+
+Htest14
+=======
+- Menus de configurations (bouton droit pour naviguer)
+- Gravite appliques aux boites de munitions
+- Amelioration des collisions
+- Ascenseurs
+- Portes (+ porte secrete dans une salle de la map)
+- Debugage des sons des portes et ascenseurs
+- Correction du bug des damages de la lave
+- Correction du bug des damages des ascenceurs
+- Intro d'animation jouee (avec directx 8.0)
+- Mode video configurable dans le menu (resolution, couleurs et plein ecran/fenetre)
+- Invert Mouse configurable depuis le menu et correction d'un bug avec la presentation
+- Volumes sonores (son & musique) configurables depuis le menu
+- Mode de jeu Autoswitch weapon configurable depuis le menu
+- Diamants plus facilement attrapables
+- Correction d'un bug sur les collisions entre fleches/monstres & pics/monstres
+- Ajout de cris de damages du joueur
+- Systeme du jeu compatible pleine ecran NT4 ( A TESTER )
+- Systeme du jeu compatible avec un PC sans carte son ( A TESTER )
+- Ajout d'un fichier de log de la console
+- Correction du mouvement des bombes
+- Ajout du Start Direction
+- On ne peux plus prendre une arme non rammassée
+- On ne respawn plus avec la derniere arme utilisée mais avec la massue
+- Bug de reinitialisation de la musique du menu corrige
+- Deplacements et physique constants quelque soit le PC ( A CONFIRMER )
+- Bug sur les armes qui s'effaçaient dans les murs fixé
+
+
+Bug? <julienm@jadeware.org>
+--
+COPYRIGHT (C) 2001 By Jadeware
+ALL RIGHTS RESERVED

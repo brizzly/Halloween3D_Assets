@@ -1,0 +1,332 @@
+MilkShape 3D 1.5.3
+Parsing OpenGL configuration...
+Initializing mxToolKit...
+Loading globals...
+Creating Application...
+Loading...
+Initializing PluginManager...
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\ms3DSExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\ms3DSExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\ms3DSImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\ms3DSImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msASCIIExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msASCIIExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msASCIIImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msASCIIImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msModelLib.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msRawExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msRawExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msRawImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msRawImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msRIBExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msRIBExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msNODImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msNODImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msNODExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msNODExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msVRML97Exporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msVRML97Exporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msNebulaExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msNebulaExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msABCImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msABCImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msPSKImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msPSKImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msPSKExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msPSKExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msABCExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msABCExporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msProgressiveMesh.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msProgressiveMesh.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msTMDImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msTMDImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msOperationSmoothEdge.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msOperationSmoothEdge.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msLUVImporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msLUVImporter.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msCPP.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msOperationMirrorAll.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msOperationMirrorAll.dll
+Trying PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msZy3DOExporter.dll
+Loading PlugIn: C:\Program Files\MilkShape 3D 1.5.3\msZy3DOExporter.dll
+Creating menubar...
+Creating message window...
+Creating ViewportManager...
+mxGlWindow, GetDC
+mxGlWindow, ChoosePixelFormat
+mxGlWindow, SetPixelFormat
+mxGlWindow, GetPixelFormat
+mxGlWindow, DescribePixelFormat
+PixelFormat: 4
+
+PixelFormat = 4
+ nSize = 40
+ nVersion = 1
+ dwFlags = 
+PFD_DRAW_TO_WINDOW|
+PFD_SUPPORT_OPENGL|
+PFD_DOUBLEBUFFER|
+PFD_SWAP_EXCHANGE|
+ iPixelType = 
+PFD_TYPE_RGBA
+*cColorBits = 32
+ cRedBits = 8
+ cRedShift = 16
+ cGreenBits = 8
+ cGreenShift = 8
+ cBlueBits = 8
+ cBlueShift = 0
+ cAlphaBits = 0
+ cAlphaShift = 0
+ cAccumBits = 64
+ cAccumRedBits = 16
+ cAccumGreenBits = 16
+ cAccumBlueBits = 16
+ cAccumAlphaBits = 16
+*cDepthBits = 16
+*cStencilBits = 0
+ cAuxBuffers = 0
+ iLayerType = 0
+ bReserved = 0
+ dwLayerMask = 0
+ dwVisibleMask = 0
+ dwDamageMask = 0
+
+
+mxGlWindow, wglCreateContext
+mxGlWindow, wglMakeCurrent
+mxGlWindow, GetDC
+mxGlWindow, ChoosePixelFormat
+mxGlWindow, SetPixelFormat
+mxGlWindow, GetPixelFormat
+mxGlWindow, DescribePixelFormat
+PixelFormat: 4
+
+PixelFormat = 4
+ nSize = 40
+ nVersion = 1
+ dwFlags = 
+PFD_DRAW_TO_WINDOW|
+PFD_SUPPORT_OPENGL|
+PFD_DOUBLEBUFFER|
+PFD_SWAP_EXCHANGE|
+ iPixelType = 
+PFD_TYPE_RGBA
+*cColorBits = 32
+ cRedBits = 8
+ cRedShift = 16
+ cGreenBits = 8
+ cGreenShift = 8
+ cBlueBits = 8
+ cBlueShift = 0
+ cAlphaBits = 0
+ cAlphaShift = 0
+ cAccumBits = 64
+ cAccumRedBits = 16
+ cAccumGreenBits = 16
+ cAccumBlueBits = 16
+ cAccumAlphaBits = 16
+*cDepthBits = 16
+*cStencilBits = 0
+ cAuxBuffers = 0
+ iLayerType = 0
+ bReserved = 0
+ dwLayerMask = 0
+ dwVisibleMask = 0
+ dwDamageMask = 0
+
+
+mxGlWindow, wglCreateContext
+mxGlWindow, wglMakeCurrent
+mxGlWindow, GetDC
+mxGlWindow, ChoosePixelFormat
+mxGlWindow, SetPixelFormat
+mxGlWindow, GetPixelFormat
+mxGlWindow, DescribePixelFormat
+PixelFormat: 4
+
+PixelFormat = 4
+ nSize = 40
+ nVersion = 1
+ dwFlags = 
+PFD_DRAW_TO_WINDOW|
+PFD_SUPPORT_OPENGL|
+PFD_DOUBLEBUFFER|
+PFD_SWAP_EXCHANGE|
+ iPixelType = 
+PFD_TYPE_RGBA
+*cColorBits = 32
+ cRedBits = 8
+ cRedShift = 16
+ cGreenBits = 8
+ cGreenShift = 8
+ cBlueBits = 8
+ cBlueShift = 0
+ cAlphaBits = 0
+ cAlphaShift = 0
+ cAccumBits = 64
+ cAccumRedBits = 16
+ cAccumGreenBits = 16
+ cAccumBlueBits = 16
+ cAccumAlphaBits = 16
+*cDepthBits = 16
+*cStencilBits = 0
+ cAuxBuffers = 0
+ iLayerType = 0
+ bReserved = 0
+ dwLayerMask = 0
+ dwVisibleMask = 0
+ dwDamageMask = 0
+
+
+mxGlWindow, wglCreateContext
+mxGlWindow, wglMakeCurrent
+mxGlWindow, GetDC
+mxGlWindow, ChoosePixelFormat
+mxGlWindow, SetPixelFormat
+mxGlWindow, GetPixelFormat
+mxGlWindow, DescribePixelFormat
+PixelFormat: 4
+
+PixelFormat = 4
+ nSize = 40
+ nVersion = 1
+ dwFlags = 
+PFD_DRAW_TO_WINDOW|
+PFD_SUPPORT_OPENGL|
+PFD_DOUBLEBUFFER|
+PFD_SWAP_EXCHANGE|
+ iPixelType = 
+PFD_TYPE_RGBA
+*cColorBits = 32
+ cRedBits = 8
+ cRedShift = 16
+ cGreenBits = 8
+ cGreenShift = 8
+ cBlueBits = 8
+ cBlueShift = 0
+ cAlphaBits = 0
+ cAlphaShift = 0
+ cAccumBits = 64
+ cAccumRedBits = 16
+ cAccumGreenBits = 16
+ cAccumBlueBits = 16
+ cAccumAlphaBits = 16
+*cDepthBits = 16
+*cStencilBits = 0
+ cAuxBuffers = 0
+ iLayerType = 0
+ bReserved = 0
+ dwLayerMask = 0
+ dwVisibleMask = 0
+ dwDamageMask = 0
+
+
+mxGlWindow, wglCreateContext
+mxGlWindow, wglMakeCurrent
+Creating ControlPanel...
+Creating Material Preview...
+mxGlWindow, GetDC
+mxGlWindow, ChoosePixelFormat
+mxGlWindow, SetPixelFormat
+mxGlWindow, GetPixelFormat
+mxGlWindow, DescribePixelFormat
+PixelFormat: 4
+
+PixelFormat = 4
+ nSize = 40
+ nVersion = 1
+ dwFlags = 
+PFD_DRAW_TO_WINDOW|
+PFD_SUPPORT_OPENGL|
+PFD_DOUBLEBUFFER|
+PFD_SWAP_EXCHANGE|
+ iPixelType = 
+PFD_TYPE_RGBA
+*cColorBits = 32
+ cRedBits = 8
+ cRedShift = 16
+ cGreenBits = 8
+ cGreenShift = 8
+ cBlueBits = 8
+ cBlueShift = 0
+ cAlphaBits = 0
+ cAlphaShift = 0
+ cAccumBits = 64
+ cAccumRedBits = 16
+ cAccumGreenBits = 16
+ cAccumBlueBits = 16
+ cAccumAlphaBits = 16
+*cDepthBits = 16
+*cStencilBits = 0
+ cAuxBuffers = 0
+ iLayerType = 0
+ bReserved = 0
+ dwLayerMask = 0
+ dwVisibleMask = 0
+ dwDamageMask = 0
+
+
+mxGlWindow, wglCreateContext
+mxGlWindow, wglMakeCurrent
+Creating StatusBar...
+Creating TexCoordEditor...
+mxGlWindow, GetDC
+mxGlWindow, ChoosePixelFormat
+mxGlWindow, SetPixelFormat
+mxGlWindow, GetPixelFormat
+mxGlWindow, DescribePixelFormat
+PixelFormat: 4
+
+PixelFormat = 4
+ nSize = 40
+ nVersion = 1
+ dwFlags = 
+PFD_DRAW_TO_WINDOW|
+PFD_SUPPORT_OPENGL|
+PFD_DOUBLEBUFFER|
+PFD_SWAP_EXCHANGE|
+ iPixelType = 
+PFD_TYPE_RGBA
+*cColorBits = 32
+ cRedBits = 8
+ cRedShift = 16
+ cGreenBits = 8
+ cGreenShift = 8
+ cBlueBits = 8
+ cBlueShift = 0
+ cAlphaBits = 0
+ cAlphaShift = 0
+ cAccumBits = 64
+ cAccumRedBits = 16
+ cAccumGreenBits = 16
+ cAccumBlueBits = 16
+ cAccumAlphaBits = 16
+*cDepthBits = 16
+*cStencilBits = 0
+ cAuxBuffers = 0
+ iLayerType = 0
+ bReserved = 0
+ dwLayerMask = 0
+ dwVisibleMask = 0
+ dwDamageMask = 0
+
+
+mxGlWindow, wglCreateContext
+mxGlWindow, wglMakeCurrent
+Creating KeyFramer...
+Creating Preferences...
+Initializing keyframer...
+Downloading background textures...
+
+glGetStrings:
+GeForce2 MX/AGP
+NVIDIA Corporation
+1.2.2
+GL_ARB_imaging GL_ARB_multitexture GL_ARB_texture_compression GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_dot3 GL_ARB_transpose_matrix GL_S3_s3tc GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_packed_pixels GL_EXT_paletted_texture GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shared_texture_palette GL_EXT_stencil_wrap GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_cube_map GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_vertex_weighting GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_evaluators GL_NV_fence GL_NV_fog_distance GL_NV_light_max_exponent GL_NV_packed_depth_stencil GL_NV_register_combiners GL_NV_texgen_emboss GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_NV_texture_rectangle GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_program GL_SGIS_generate_mipmap GL_SGIS_multitexture GL_SGIS_texture_lod GL_WIN_swap_hint WGL_EXT_swap_control 
+Settings window placement...
+Running application...
+Undo: Select
+Undo: Assign Joint
+Undo: Select
+Cleaning up mxToolKit.

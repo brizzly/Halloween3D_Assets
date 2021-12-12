@@ -1,0 +1,9 @@
+Compilation des objets
+=======================
+
+obj.exe objet.ASE
+
+=> objet.ent 
+
+a placer dans le sous repertoire /entity du jeu.
+

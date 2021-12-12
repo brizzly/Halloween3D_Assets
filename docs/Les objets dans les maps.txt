@@ -1,0 +1,73 @@
+==========================
+
+ Les objets dans les maps
+
+==========================
+
+
+
+Il existe different type d'objets que l'on peut placer dans une map.
+Par exemple des armes des monstres des lumieres des lampes des munitions et meme un point de depart.
+
+On peut placer des objets dans une maps en créant un petit cube sous 3DS et en l'appelant du nom de l'objet en question. L'objet en question prendra la place du centre de ce cube dans la map.
+
+Note: ne pas ecrire les guillemets: " dans les noms sous 3DS.
+ 
+
+Pour placer des monstres
+=========================
+
+"monstre" : place un depla
+"morbak"  : place un morbak
+
+
+Pour placer des armes/munitions
+================================
+
+"amo1"
+"amo2"
+"amo3"
+"gun1"
+"gun2"
+"gun3"
+
+
+Pour placer un point de depart du joueur
+=========================================
+
+"startN" ou N est un entier compris en 0 et 359.
+Exemple: "start0", "start1", "start180"...
+
+On ne peut placer qu'un seul point de depart du joueur.
+On oriente l'angle de vue du joueur avec l'entier.
+Par exemple "start90" situera le joueur d'un angle de 90 degre.
+
+
+
+Pour placer des lampes/lumieres
+================================
+
+"lampe(R,G,B,I)"
+
+Ou R,G et B sont des entiers compris entre 0 et 255.
+C'est les composantes RGB de la couleur de la lumiere.
+
+I est un reel compris entre 0.0 et 1.0 qui correspond a l'intensité d'eclairage de la lumiere.
+
+
+
+Pour placer un action brush (objet scriptable)
+===============================================
+
+"actionN" ou N est un entier compris entre 0 et 255.
+
+
+
+
+
+
+
+
+
+
+
